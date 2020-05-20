@@ -2,7 +2,7 @@
 
 namespace Laravel\Telescope\Tests\Watchers;
 
-use Illuminate\Database\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\Model;
 use Laravel\Telescope\EntryType;
 use Laravel\Telescope\Telescope;
 use Laravel\Telescope\Tests\FeatureTestCase;

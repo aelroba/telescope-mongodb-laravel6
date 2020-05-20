@@ -2,7 +2,7 @@
 
 namespace Laravel\Telescope\Watchers;
 
-use Illuminate\Database\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\Model;
 use Illuminate\Foundation\Http\Events\RequestHandled;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response as IlluminateResponse;
