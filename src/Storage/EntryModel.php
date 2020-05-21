@@ -165,7 +165,7 @@ class EntryModel extends Model
             return $this;
         }
 
-        $query->where('should_display_on_index', true);
+        $query->where('should_display_on_index', '!=', false);
 
         return $this;
     }
